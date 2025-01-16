@@ -1,0 +1,88 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+  background-color: aliceblue;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Roboto", serif;
+}
+.hero {
+  background-image: url("images/Eldoret.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.hero h2 {
+  background-color: #457b9d;
+  margin-bottom: 0;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-shadow: 0 0 2px black;
+}
+.hero p {
+  margin-top: 7px;
+  background-color: #1d3557;
+  width: 60%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-shadow: 0 0 2px black;
+}
+
+.activities {
+  background-color: #f1faee;
+  text-align: center;
+  display: flex;
+  color: #457b9d;
+}
+#activity-heading {
+  background-color: #f1faee;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #457b9d;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.activity {
+  padding-top: 12px;
+  font-size: 18px;
+  margin: 0 50px;
+}
+.activity img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.guide {
+  background-color: #a8dadc;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 5px auto;
+  height: 250px;
+  font-size: 15px;
+  border-bottom: 5px solid #1d3557;
+  color: #1d3557;
+  text-align: center;
+  border-radius: 5px;
+}
+.guide img {
+  width: 250px;
+  height: 250px;
+}
